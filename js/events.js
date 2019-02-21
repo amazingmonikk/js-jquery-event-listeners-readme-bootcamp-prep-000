@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 function frameIt() {
 $(document).ready(function(){ 
-  $('image .tasty').on('load', function(){
+  $('image:.tasty').on('load', function(){
   
   });
   });  
