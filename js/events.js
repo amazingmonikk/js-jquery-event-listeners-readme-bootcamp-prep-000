@@ -3,7 +3,7 @@ function getIt() {
 $(document).ready(function(){
   $('p').on('click', function(){
     alert("Hey!");
-  });
+    });
   });
 }
 
@@ -11,17 +11,17 @@ function frameIt() {
 $(document).ready(function(){ 
   $('image.tasty').on('load', function(){
   
-  });
- });  
+    });
+  });  
 }
 
 
 function pressIt() {
- $(document).ready(function(key){ 
-   $("form").on('keydown', function(){
-     if(key.witch ==)
-   })
-   
-   
+ $(document).ready(function(){ 
+   $('form').on('keydown', function(key){
+     if(key.which == 71) {
+       alert('g was pressed');
+     }
+   });
  });  
 }
