@@ -7,15 +7,15 @@ $(document).ready(function(){
   });
 }
 
-function frameIt() {
+//function frameIt() {
 $(document).ready(function(){ 
   $('image.tasty').on('load', function(){
   
   });
   });  
-}
+//}
 
 
-function() {
+function pressIt() {
   
 }
