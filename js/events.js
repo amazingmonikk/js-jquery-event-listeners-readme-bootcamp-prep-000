@@ -8,14 +8,20 @@ $(document).ready(function(){
 }
 
 function frameIt() {
-//$(document).ready(function(){ 
+$(document).ready(function(){ 
   $('image.tasty').on('load', function(){
   
   });
- // });  
+ });  
 }
 
 
 function pressIt() {
-  
+ $(document).ready(function(key){ 
+   $("form").on('keydown', function(){
+     if(key.witch ==)
+   })
+   
+   
+ });  
 }
